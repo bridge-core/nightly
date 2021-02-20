@@ -36,7 +36,7 @@ jobs:
             - name: Install and Build 🔧
               run: |
                   npm install
-                  npm --max_old_space_size=8192 run build
+                  node --max_old_space_size=8192 `which npm` run build
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@3.7.1
