@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a377d740c4124ca86224a553e4abab71",
+    "revision": "5557c31cef637517b4edcc898c33476f",
     "url": "/nightly/changelog.html"
   },
   {
@@ -8,19 +8,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/css.worker.js"
   },
   {
-    "revision": "94560c9b84b9ac0fdc07",
-    "url": "/nightly/css/app.cf9ad5c8.css"
+    "revision": "78e92c821b0ff20be2ca",
+    "url": "/nightly/css/app.f947de24.css"
   },
   {
     "revision": "f896ce20f808a5c56f98",
     "url": "/nightly/css/chunk-vendors.b4d2ba39.css"
   },
   {
-    "revision": "4dee18907243f20e72e4a622218e60bf",
+    "revision": "6710e8f3dc0458418f558b5e86c53445",
     "url": "/nightly/data/package.zip"
   },
   {
-    "revision": "f63163cdb1493c95a036f8830d0132c5",
+    "revision": "b0019d9bc76b51b9510ca0d022c3a4ab",
     "url": "/nightly/data/version.txt"
   },
   {
@@ -52,15 +52,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/html.worker.js"
   },
   {
-    "revision": "3d03c8d6f5daf0245cc38bdd4e986768",
-    "url": "/nightly/img/logo.3d03c8d6.png"
+    "revision": "f923eccc5531c877be8971d13bcf59e9",
+    "url": "/nightly/img/logo-simple.f923eccc.svg"
   },
   {
-    "revision": "a5e261baa9961fe146ba3d259eacd132",
-    "url": "/nightly/img/logo_high_res.a5e261ba.png"
+    "revision": "7f7041a01992bb081700df26c6a011fc",
+    "url": "/nightly/img/logo.7f7041a0.svg"
   },
   {
-    "revision": "5564b0eb239cfb45afdf33ae81eaa21b",
+    "revision": "9dbafa565096b6bb049dc8f9e07b248d",
     "url": "/nightly/index.html"
   },
   {
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/js/1.1053ea6e.worker.js"
   },
   {
-    "revision": "94560c9b84b9ac0fdc07",
-    "url": "/nightly/js/app.c9d74256.js"
+    "revision": "78e92c821b0ff20be2ca",
+    "url": "/nightly/js/app.85b9a09c.js"
   },
   {
     "revision": "0253bcaaa029c0a84cc2",
