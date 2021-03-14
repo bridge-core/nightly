@@ -1,34 +1,60 @@
 <h2>Features:</h2>
 <ul>
-<li>Deleted files now get removed automatically from the lightning cache</li>
-<li>&quot;Ctrl + O&quot; now opens Pack Explorer</li>
-<li>&quot;Ctrl + P&quot; now opens File Picker</li>
-<li>Improved pack explorer</li>
-<li>bridge. now sends a notification which allows users to update all extensions</li>
+<li>Added toggles upon project creation for...
+<ul>
+<li>GameTest API</li>
+<li>Scripting API</li>
+<li>Registering the RP as a BP dependency</li>
+</ul>
+</li>
+<li><strong>Compiler:</strong>
+<ul>
+<li>More logical initial flatFiles order to reduce require overhead later</li>
+<li>Requiring files now only resolves them &amp; requires unknown dependencies. Saving files is now deferred by default</li>
+<li>Added &quot;entityIdentifierAlias&quot; plugin</li>
+<li>Files can now import other files using globs</li>
+</ul>
+</li>
+<li><strong>Custom Components:</strong>
+<ul>
+<li>Animation(s/ controllers) can now provide a MoLang condition to toggle whether they are supposed to run</li>
+<li>Animation (controller) support for custom item components</li>
+</ul>
+</li>
+<li>Updated JSON schemas to latest beta</li>
+<li>Updated GameTest API to latest beta</li>
+<li>bridge. now proposes action texts from your lang files inside of behavior components</li>
+<li>Auto-completions for entity tags</li>
 </ul>
 <h2>Changes:</h2>
 <ul>
-<li>Preset window: Sidebar items are now collapsed by default</li>
-<li>Updated GameTest data to latest beta</li>
-<li>Updated manifest schema to latest beta</li>
-<li>Updated biome schema to latest beta</li>
-<li>Updated vanilla identifiers</li>
-<li>Slightly improved data loader performance</li>
+<li>Updated MoLang library</li>
+<li>Better error messages for file system related errors</li>
+<li>Renamed &quot;plugins&quot; folder to &quot;extensions&quot;</li>
+<li>Removed unused UIs</li>
+<li>Use hash string for automatically generated animation(s/ controllers)</li>
+<li>Create player.json file upon creating project</li>
+<li>Support for versioning type declarations</li>
+<li>Improved recipe schema</li>
+<li>Added descriptions to fog schema</li>
+<li>Updated tree feature schema</li>
 </ul>
 <h2>Fixes:</h2>
 <ul>
-<li>Fixed various locale errors</li>
-<li>Fixed &quot;not a semantic version&quot; error</li>
-<li>Fixed discord window not closing after clicking &quot;Join&quot;</li>
-<li>Fixed compiler progress not showing correctly</li>
-<li>Fixed error upon refreshing packs</li>
-<li>Fixed pack explorer re-opening after refreshing pack</li>
-<li>Fixed text editor losing focus after saving</li>
-<li>Fixed TypeScript files not being recognized as scripts/components</li>
-<li>Fixed error notification text color in light mode</li>
-<li>Fixed error upon switching projects</li>
-<li>Fixed manifest modules not showing auto-completions</li>
-<li>Fixed custom components not updating correctly</li>
-<li>Fixed not all animations/animation controllers saving if a file uses a custom component multiple times</li>
-<li>Fixed lang &amp; mcfunction files not saving</li>
+<li>Fixed data loader sometimes freezing computers</li>
+<li>Fixed project creation screen not reseting properly</li>
+<li>Fixed automatic changelog generation</li>
+<li>Fixed rare issue with .crswap files appearing inside of projects</li>
+<li>Fixed error upon downloading extensions</li>
+<li>Fixed custom geometry block preset creating texture in wrong place</li>
+<li>Fixed presets not injecting identifier in custom block geometry preset</li>
+<li>Automatically remove deleted projects from recent projects list</li>
+<li>Fixed &quot;compiler plugin [X] is not defined&quot; error upon switching projects</li>
+<li>Fixed format on save being broken for persistent tabs</li>
+<li>Fixed empty file names in pack explorer</li>
+<li>Fixed error upon creating new item file</li>
+<li>Fixed presets being able to overwrite unsaved changes</li>
+<li>Fixed filter name: &quot;is_nether&quot; -&gt; &quot;in_nether&quot;</li>
+<li>Fixed update extensions notification showing if all extensions were already manually updated</li>
+<li>Fixed compiler hot updates</li>
 </ul>
