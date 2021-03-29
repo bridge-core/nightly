@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/css/chunk-vendors.b4d2ba39.css"
   },
   {
-    "revision": "dcb64657b5c28603d5e441b4028a0ab8",
+    "revision": "f10575b7c50bae42b32e39df183e17e8",
     "url": "/nightly/data/package.zip"
   },
   {
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/img/logo.e82c2c74.svg"
   },
   {
-    "revision": "904c5cbe5e62c47a5a448c4574e08b36",
+    "revision": "619b1468c48a3f1f97e05766aad98749",
     "url": "/nightly/index.html"
   },
   {
@@ -360,7 +360,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/json.worker.js"
   },
   {
-    "revision": "198246a34e092f655dc0d0cf88dd7c1e",
+    "revision": "2738c72bf139c3db630e6fbda087dddc",
     "url": "/nightly/manifest.json"
   },
   {
