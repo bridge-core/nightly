@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/css/chunk-vendors.3f8599d7.css"
   },
   {
-    "revision": "dfafa733955fd7aab38d4751248e4651",
+    "revision": "1c0c1915fed34d3f9b027de0cd7b1820",
     "url": "/nightly/data/package.zip"
   },
   {
