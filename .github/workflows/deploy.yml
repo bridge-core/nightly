@@ -5,6 +5,7 @@ on:
             - main
     schedule:
         - cron: '0 22 * * *'
+    workflow_dispatch:
 jobs:
     build-and-deploy:
         runs-on: macos-latest
@@ -38,7 +39,7 @@ jobs:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: |
                   npm install
-                  npm run build:nightly
+                  NODE_OPTIONS=--max_old_space_size=4096 npm run build:nightly
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@3.7.1
