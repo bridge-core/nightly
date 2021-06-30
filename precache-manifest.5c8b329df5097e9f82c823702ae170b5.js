@@ -28,11 +28,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nightly/css/chunk-vendors.e3074f84.css"
   },
   {
-    "revision": "e590e5cf74c520504129151d4c09533e",
+    "revision": "447e56850ada94eec65c11c07d8cd3bf",
     "url": "/nightly/data/package.zip"
   },
   {
-    "revision": "93dc1ecdca08b8a986c30878068e1a2d",
+    "revision": "6c45951eacb4d4b7bbf4ae830c3f7aaa",
     "url": "/nightly/data/version.txt"
   },
   {
