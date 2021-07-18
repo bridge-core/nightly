@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/audio/error_002.ogg"
   },
   {
-    "revision": "a65e7271d9686a514000e7b2d4851218",
+    "revision": "d7fd2d5468672d9e4a465a3281fbf39b",
     "url": "/changelog.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css.worker.js"
   },
   {
-    "revision": "43e5f4b0d9f34d7072ae",
+    "revision": "60e5ce0c7a9686938b30",
     "url": "/css/app.6ddd4367.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/chunk-vendors.e3074f84.css"
   },
   {
-    "revision": "ad10b177ba5ad54c56c9ddaf1c4d66a0",
+    "revision": "864cf7249b07ac1bafff140a7f0abfc1",
     "url": "/data/package.zip"
   },
   {
@@ -72,7 +72,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.e82c2c74.svg"
   },
   {
-    "revision": "dedf946979a6af64a7266c76ee892d2d",
+    "revision": "196370a8a90bed61b26a73aa21904d8f",
     "url": "/index.html"
   },
   {
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/2.64ba5895.worker.js"
   },
   {
-    "revision": "43e5f4b0d9f34d7072ae",
-    "url": "/js/app.e12b5db9.js"
+    "revision": "60e5ce0c7a9686938b30",
+    "url": "/js/app.f75d825a.js"
   },
   {
     "revision": "81466a26538ac1f79844",
