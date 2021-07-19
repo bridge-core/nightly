@@ -27,7 +27,7 @@ Thanks a lot to all the people who contributed to this milestone release: @Joela
 <p>bridge. v2 now supports creating skin packs and world templates in addition to behavior and resource packs. We have also published an extension called &quot;WorldHub&quot; which allows creators to add multiple worlds to a project &amp; pulling/pushing them from/to the com.mojang folder.</p>
 <h2>Project Structure</h2>
 <p>bridge. v2 moves projects out of the com.mojang directory by default. Additionally, all packs that belong to a project can be found inside of a single folder. This allows for very easy integration with version control systems like git and makes it easier to work on the project with other editors. A typical v2 project looks like this:</p>
-<p>-- My Project/
+<pre><code>-- My Project/
 --- .bridge/
 --- BP/
 ---- ...
@@ -38,7 +38,8 @@ Thanks a lot to all the people who contributed to this milestone release: @Joela
 --- SP/
 ---- ...
 ---- manifest.json
---- config.json</p>
+--- config.json
+</code></pre>
 <h2>Compiler Architecture</h2>
 <p>Even though bridge. v2 no longer stores your project inside of the com.mojang folder, you still get the same seamless development experience if you have setup com.mojang syncing by dragging the folder onto bridge. v2. Upon making changes to the project folder, bridge. will re-compile the file and move it to Minecraft for testing. Because this process is fully automatic, <strong>you should never manually work on the add-on inside of the com.mojang folder because any changes might get overwritten. Always work with the project folder!</strong></p>
 <p>When you make changes to your project outside of bridge., you can refresh the project and bridge. will pick up any changes made with external editors and update the com.mojang output accordingly. This also works with file deletions &amp; renames.</p>
