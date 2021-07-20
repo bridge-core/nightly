@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.6dc777d55bf51df7f34d0e7c7755f6dd.js"
+  "/precache-manifest.143ff941667e655bfe3b645c10ebe794.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "bridge"});
