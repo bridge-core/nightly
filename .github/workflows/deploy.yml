@@ -46,4 +46,3 @@ jobs:
               with:
                   BRANCH: gh-pages
                   FOLDER: dist
-                  CLEAN: true
