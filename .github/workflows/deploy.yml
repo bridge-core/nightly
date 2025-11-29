@@ -36,7 +36,7 @@ jobs:
               uses: actions/configure-pages@v2
 
             - name: Install Node 🧰
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
                   # node-version: 18
                   node-version: 22
@@ -44,7 +44,7 @@ jobs:
 
             - name: Install and Build 🔧
               run: |
-                  npm install
+                  npm ci
                   NODE_OPTIONS=--max_old_space_size=4096 npm run build
 
             - name: Upload artifact ⬆️
